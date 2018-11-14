@@ -5,7 +5,7 @@ from time import sleep, strftime
 
 calendar = {}
 
-
+# welcome message with current date and time
 def welcome():
   USER_FIRST_NAME = raw_input("What's your name? ")
   print "Welcome %s" % USER_FIRST_NAME
